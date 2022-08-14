@@ -1,0 +1,142 @@
+baseURL = 'http://example.org/'
+theme = "loveit"
+languageCode = 'en'
+title = 'MubarekSD'
+
+
+defaultContentLanguage = "en"
+languageName = "English"
+copyright = ""
+enableRobotsTXT = true
+enableGitInfo = true
+enableEmoji = true
+ignoreErrors = ["error-remote-getjson", "error-missing-instagram-accesstoken"]
+[author]
+  name = "Mubarek Seid"
+  email = "mubareksd@gmail.com"
+  link = ""
+
+[menu]
+	[[menu.main]]
+		weight = 1
+		identifier = "about"
+		name = "About"
+		url = "/about/"
+		title = ""
+	[[menu.main]]
+		weight = 2
+		identifier = "contact"
+		name = "Contact"
+		url = "/contact"
+		title = ""
+
+[params]
+
+	defaultTheme = "auto"
+	dateFormat = "2006-01-02"
+	title = "MubarekSD"
+	description = "portfolio"
+
+	[params.header]
+		desktopMode = "fixed"
+		mobileMode = "auto"
+		[params.header.title]
+			# logo = "/images/prtotype.png"
+			name = "MubarekSD"
+			typeit = false
+
+	[params.footer]
+		enable = true
+		hugo = false
+		copyright = true
+		author = true
+		since = "2017"
+		license = ''
+
+	[params.home]
+		[params.home.profile]
+			enable = true
+			gravatarEmail = ""
+			avatarURL = "/images/prtotype.png"
+			title = "Software Engineer"
+			subtitle = ""
+			typeit = true
+			social = true
+			disclaimer = ""
+		[params.home.about]
+			enable = true
+			paginate = 6
+
+	[params.social]
+		Github = "MubarekSD"
+		Linkedin = "mubarek-seid-4873a4220"
+		Twitter = "mubareksd"
+		Facebook = "mubareksd"
+		Gitlab = "mubareksd"
+		Telegram = "mubareksd"
+		phone = "+251975273470"
+		Email = "mubareksd@gmail.com"
+
+	[params.page]
+		hiddenFromHomePage = false
+		hiddenFromSearch = false
+		fontawesome = true
+		linkToMarkdown = true
+		[params.page.toc]
+			enable = true
+			keepStatic = false
+			auto = true
+		[params.page.share]
+			enable = true
+			Twitter = true
+			# Facebook = True
+		# [params.page.comment]
+			# enable = true
+		[params.page.library]
+			[params.page.library.css]
+			[params.page.library.js]
+		[params.page.seo]
+			image = []
+			[params.page.seo.publisher]
+				name = "MubarekSD"
+				logoUrl = "/images/prtotype.png"
+	[params.seo]
+		image = "/images/prototype.png"
+		thumbnailUrl = "/images/prototype.png"
+
+[sitemap]
+  changefreq = "weekly"
+  filename = "sitemap.xml"
+  priority = 0.5
+
+[languages]
+	[languages.en]
+		weight = 1
+		languageCode = "en"
+		languageName = "English"
+		hasCJKLanguage = false
+			[languages.en.menu]
+				[[languages.en.menu.main]]
+					weight = 1
+					identifier = "about"
+					name = "About"
+					url = "/about/"
+					title = ""
+				[[languages.en.menu.main]]
+					weight = 2
+					identifier = "contact"
+					name = "Contact"
+					url = "/contact/"
+					title = ""
+
+		[languages.en.params]
+			[languages.en.params.home]
+				[languages.en.params.home.profile]
+					enable = true
+					gravatarEmail = ""
+					avatarUrl = "/images/prtotype.png"
+					title = "Software Engineer"
+					subtitle = ""
+					typeit = true
+					social = true
+					disclaimer = ""
