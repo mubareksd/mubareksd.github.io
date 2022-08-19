@@ -69,7 +69,7 @@ ignoreErrors = ["error-remote-getjson", "error-missing-instagram-accesstoken"]
 
 	[params.social]
 		Github = "MubarekSD"
-		Linkedin = "mubarek-seid-4873a4220"
+		Linkedin = "mubareksd"
 		Twitter = "mubareksd"
 		Facebook = "mubareksd"
 		Gitlab = "mubareksd"
