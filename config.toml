@@ -1,59 +1,108 @@
-baseURL = 'http://example.org/'
+baseURL = 'https://mubareksd.me/'
+title = 'MubarekSD'
 theme = "loveit"
 languageCode = 'en'
-title = 'MubarekSD'
-
+disablePathToLower = true
 
 defaultContentLanguage = "en"
 languageName = "English"
+hasCJKLanguage = false
+paginate = 12
+googleAnalytics = ""
 copyright = ""
 enableRobotsTXT = true
 enableGitInfo = true
 enableEmoji = true
 ignoreErrors = ["error-remote-getjson", "error-missing-instagram-accesstoken"]
 [author]
-  name = "Mubarek Seid"
+  name = "Mubarek Seid Juhar"
   email = "mubareksd@gmail.com"
-  link = ""
+  link = "https://mubareksd.me"
 
 [menu]
 	[[menu.main]]
 		weight = 1
 		identifier = "about"
+		pre = ""
+		post=""
 		name = "About"
 		url = "/about/"
 		title = ""
 	[[menu.main]]
 		weight = 2
+		identifier = "blog"
+		pre = ""
+		post=""
+		name = "Blog"
+		url = "/blog"
+		title = ""
+	[[menu.main]]
+		weight = 3
 		identifier = "contact"
+		pre = ""
+		post=""
 		name = "Contact"
 		url = "/contact"
 		title = ""
 
 [params]
-
 	defaultTheme = "auto"
+	gitRepo = "https://github.com/MubarekSD/mubareksd.github.io"
+	fingerprint = "sha256"
 	dateFormat = "2006-01-02"
 	title = "MubarekSD"
-	description = "portfolio"
+	description = "my portfolio"
+	images = ["/images/prototype.png"]
 
 	[params.header]
 		desktopMode = "fixed"
 		mobileMode = "auto"
 		[params.header.title]
-			# logo = "/images/prtotype.png"
+			logo = ""
 			name = "MubarekSD"
+			pre = ""
+			post = ""
 			typeit = false
 
 	[params.footer]
 		enable = true
+		custom = ''
 		hugo = false
 		copyright = true
 		author = true
 		since = "2017"
-		license = ''
+		license = '<a rel="license external nofollow noopener noreffer" href="https://www.gnu.org/licenses/gpl-3.0.en.html" target="_blank">GPL-V3</a>'
+
+	[params.section]
+		paginate = 20
+		dateFormat = "01-02"
+		rss = 10
+
+	[params.list]
+		paginate = 20
+		dateFormat = "01-02"
+		rss = 10
+
+	[params.app]
+		title = "MubarekSD"
+		noFavicon = false
+		svgFavicon = ""
+		themeColor = "#ffffff"
+		iconColor = "#5bbad5"
+		tileColor = "#da532c"
+
+	[params.search]
+		enable = true
+		type = "lunr"
+		contentLength = 4000
+		placeholder = ""
+		maxResultLength = 10
+		snippetLength = 30
+		highlightTag = "em"
+		absoluteURL = false
 
 	[params.home]
+		rss = 10
 		[params.home.profile]
 			enable = true
 			gravatarEmail = ""
@@ -63,8 +112,8 @@ ignoreErrors = ["error-remote-getjson", "error-missing-instagram-accesstoken"]
 			typeit = true
 			social = true
 			disclaimer = ""
-		[params.home.about]
-			enable = true
+		[params.home.posts]
+			enable = false
 			paginate = 6
 
 	[params.social]
@@ -76,67 +125,184 @@ ignoreErrors = ["error-remote-getjson", "error-missing-instagram-accesstoken"]
 		Telegram = "mubareksd"
 		phone = "+251975273470"
 		Email = "mubareksd@gmail.com"
+		RSS = true
 
 	[params.page]
 		hiddenFromHomePage = false
 		hiddenFromSearch = false
+		twemoji = false
+		lightgallery = false
+		ruby = true
+		fraction = true
 		fontawesome = true
 		linkToMarkdown = true
+		rssFullText = false
 		[params.page.toc]
 			enable = true
 			keepStatic = false
 			auto = true
+
+		[params.page.code]
+			copy = true
+			maxShownLines = 50
+
+		[params.page.math]
+			enable = true
+			inlineLeftDelimiter = "$"
+			inlineRightDelimiter = "$"
+			blockLeftDelimiter = "$$"
+			blockRightDelimiter = "$$"
+			copyTex = true
+			mhchem = true
+
 		[params.page.share]
 			enable = true
 			Twitter = true
-			# Facebook = True
-		# [params.page.comment]
-			# enable = true
-		[params.page.library]
-			[params.page.library.css]
-			[params.page.library.js]
+			Facebook = true
+			Linkedin =true
+			Reddit = true
+			Line = false
+			weibo = false
+			HackerNews = false
+		[params.page.comment]
+			enable = true
+			[params.page.comment.disqus]
+				enable = true
+				shortname = "mubareksd"
 		[params.page.seo]
 			image = []
 			[params.page.seo.publisher]
 				name = "MubarekSD"
 				logoUrl = "/images/prtotype.png"
+
+	[params.typeit]
+		speed = 100
+		cursorSpeed = 1000
+		cursorChar = "|"
+		duration = -1
+
+	[params.verification]
+		google = ""
+		bing = ""
+		yandex = ""
+		pinterest = ""
+		baidu = ""
+	
 	[params.seo]
-		image = "/images/prototype.png"
-		thumbnailUrl = "/images/prototype.png"
+		image = "/images/Apple-Devices-Preview.png"
+		thumbnailUrl = "/images/screenshot.png"
+
+	[params.analytics]
+		enable = true
+		[params.analytics.google]
+			id = "G-VSCTBDGJ48"
+			anonymizeIP = true
+
+	[params.cookieconsent]
+		enable = false
+		[params.cookieconsent.content]
+			message = ""
+			dismiss = ""
+			link = ""
+
+	[params.cdn]
+		data = "jsdelivr.yml"
+
+	[params.compatibility]
+		polyfill = false
+		objectFit = false
+
+[markup]
+	[markup.highlight]
+		codeFences = true
+		guessSyntax = true
+		lineNos = true
+		lineNumbersInTable = true
+		noClasses = false
+		[markup.goldmark]
+			[markup.goldmark.extensions]
+				definitionList = true
+				footnote = true
+				linkify = true
+				strikethrough = true
+				table = true
+				taskList = true
+				typographer = true
+			[markup.goldmark.renderer]
+				unsafe = true
+		[markup.tableOfContents]
+			startLevel = 2
+			endLevel = 6
 
 [sitemap]
-  changefreq = "weekly"
-  filename = "sitemap.xml"
-  priority = 0.5
+	changefreq = "daily"
+	filename = "sitemap.xml"
+	priority = 0.5
 
-[languages]
-	[languages.en]
-		weight = 1
-		languageCode = "en"
-		languageName = "English"
-		hasCJKLanguage = false
-			[languages.en.menu]
-				[[languages.en.menu.main]]
-					weight = 1
-					identifier = "about"
-					name = "About"
-					url = "/about/"
-					title = ""
-				[[languages.en.menu.main]]
-					weight = 2
-					identifier = "contact"
-					name = "Contact"
-					url = "/contact/"
-					title = ""
+[Permalinks]
+  posts = ":filename"
 
-		[languages.en.params]
-			[languages.en.params.home]
-				[languages.en.params.home.profile]
-					enable = true
-					gravatarEmail = ""
-					avatarUrl = "/images/prtotype.png"
-					title = "Software Engineer"
-					subtitle = ""
-					typeit = true
-					social = true
-					disclaimer = ""
+[privacy]
+  [privacy.googleAnalytics]
+  [privacy.twitter]
+    enableDNT = true
+  [privacy.youtube]
+    privacyEnhanced = true
+
+[mediaTypes]
+  [mediaTypes."text/plain"]
+    suffixes = ["md"]
+
+[outputFormats.MarkDown]
+  mediaType = "text/plain"
+  isPlainText = true
+  isHTML = false
+
+[outputs]
+	home = ["HTML", "RSS", "JSON"]
+	page = ["HTML", "MarkDown"]
+	section = ["HTML", "RSS"]
+	taxonomy = ["HTML", "RSS"]
+	taxonomyTerm = ["HTML"]
+
+# [languages]
+# 	[languages.en]
+# 		weight = 1
+# 		languageCode = "en"
+# 		languageName = "English"
+# 		hasCJKLanguage = false
+# 			[languages.en.menu]
+# 				[[languages.en.menu.main]]
+# 					weight = 1
+# 					identifier = "about"
+# 					name = "About"
+# 					url = "/about/"
+# 					title = ""
+# 				[[languages.en.menu.main]]
+# 					weight = 2
+# 					identifier = "blog"
+# 					name = "Blog"
+# 					url = "/blog/"
+# 					title = ""
+# 				[[languages.en.menu.main]]
+# 					weight = 2
+# 					identifier = "contact"
+# 					name = "Contact"
+# 					url = "/contact/"
+# 					title = ""
+
+# 		[languages.en.params]
+# 			[languages.en.params.home]
+# 				[languages.en.params.home.profile]
+# 					enable = true
+# 					gravatarEmail = ""
+# 					avatarUrl = "/images/prtotype.png"
+# 					title = "Software Engineer"
+# 					subtitle = ""
+# 					typeit = true
+# 					social = true
+# 					disclaimer = ""
+# 				[languages.en.params.home.posts]
+# 					enable = false
+# 					paginate = 6
+# 					defaultHiddenFromHomePage = false
