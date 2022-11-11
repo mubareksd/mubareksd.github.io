@@ -3,13 +3,12 @@ title = 'MubarekSD'
 theme = "loveit"
 languageCode = 'en'
 disablePathToLower = true
-
 defaultContentLanguage = "en"
 languageName = "English"
 hasCJKLanguage = false
 paginate = 12
-googleAnalytics = ""
-copyright = ""
+googleAnalytics = "G-VSCTBDGJ48"
+copyright = "GPL-V3"
 enableRobotsTXT = true
 enableGitInfo = true
 enableEmoji = true
@@ -180,13 +179,6 @@ ignoreErrors = ["error-remote-getjson", "error-missing-instagram-accesstoken"]
 		cursorSpeed = 1000
 		cursorChar = "|"
 		duration = -1
-
-	[params.verification]
-		google = ""
-		bing = ""
-		yandex = ""
-		pinterest = ""
-		baidu = ""
 	
 	[params.seo]
 		image = "/images/Apple-Devices-Preview.png"
