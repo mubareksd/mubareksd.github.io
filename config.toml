@@ -46,7 +46,7 @@ ignoreErrors = ["error-remote-getjson", "error-missing-instagram-accesstoken"]
 		copyright = true
 		author = true
 		since = "2017"
-		license = '<a rel="license external nofollow noopener noreffer" href="https://www.gnu.org/licenses/gpl-3.0.en.html" target="_blank">GPL-V3</a>'
+		license = ''
 
 	[params.section]
 		paginate = 20
