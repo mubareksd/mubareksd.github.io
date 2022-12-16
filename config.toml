@@ -7,7 +7,7 @@ defaultContentLanguage = "en"
 languageName = "English"
 hasCJKLanguage = false
 paginate = 12
-googleAnalytics = "G-VSCTBDGJ48"
+googleAnalytics = ""
 copyright = "GPL-V3"
 enableRobotsTXT = true
 enableGitInfo = true
@@ -19,30 +19,6 @@ ignoreErrors = ["error-remote-getjson", "error-missing-instagram-accesstoken"]
   link = "https://mubareksd.me"
 
 [menu]
-	[[menu.main]]
-		weight = 1
-		identifier = "about"
-		pre = ""
-		post=""
-		name = "About"
-		url = "/about/"
-		title = ""
-	[[menu.main]]
-		weight = 2
-		identifier = "blog"
-		pre = ""
-		post=""
-		name = "Blog"
-		url = "/blog"
-		title = ""
-	[[menu.main]]
-		weight = 3
-		identifier = "contact"
-		pre = ""
-		post=""
-		name = "Contact"
-		url = "/contact"
-		title = ""
 
 [params]
 	defaultTheme = "auto"
@@ -105,7 +81,7 @@ ignoreErrors = ["error-remote-getjson", "error-missing-instagram-accesstoken"]
 		[params.home.profile]
 			enable = true
 			gravatarEmail = ""
-			avatarURL = "/images/prtotype.png"
+			avatarURL = "/images/profile.jpg"
 			title = "Software Engineer"
 			subtitle = ""
 			typeit = true
@@ -121,6 +97,9 @@ ignoreErrors = ["error-remote-getjson", "error-missing-instagram-accesstoken"]
 		Twitter = "mubareksd"
 		Facebook = "mubareksd"
 		Gitlab = "mubareksd"
+		Whatsapp = "+251975273470"
+		discord = "1011661556569866250"
+		matrix = "@mubareksdd:matrix.org"
 		Telegram = "mubareksd"
 		phone = "+251975273470"
 		Email = "mubareksd@gmail.com"
@@ -187,7 +166,7 @@ ignoreErrors = ["error-remote-getjson", "error-missing-instagram-accesstoken"]
 	[params.analytics]
 		enable = true
 		[params.analytics.google]
-			id = "G-VSCTBDGJ48"
+			id = ""
 			anonymizeIP = true
 
 	[params.cookieconsent]
@@ -256,45 +235,3 @@ ignoreErrors = ["error-remote-getjson", "error-missing-instagram-accesstoken"]
 	section = ["HTML", "RSS"]
 	taxonomy = ["HTML", "RSS"]
 	taxonomyTerm = ["HTML"]
-
-# [languages]
-# 	[languages.en]
-# 		weight = 1
-# 		languageCode = "en"
-# 		languageName = "English"
-# 		hasCJKLanguage = false
-# 			[languages.en.menu]
-# 				[[languages.en.menu.main]]
-# 					weight = 1
-# 					identifier = "about"
-# 					name = "About"
-# 					url = "/about/"
-# 					title = ""
-# 				[[languages.en.menu.main]]
-# 					weight = 2
-# 					identifier = "blog"
-# 					name = "Blog"
-# 					url = "/blog/"
-# 					title = ""
-# 				[[languages.en.menu.main]]
-# 					weight = 2
-# 					identifier = "contact"
-# 					name = "Contact"
-# 					url = "/contact/"
-# 					title = ""
-
-# 		[languages.en.params]
-# 			[languages.en.params.home]
-# 				[languages.en.params.home.profile]
-# 					enable = true
-# 					gravatarEmail = ""
-# 					avatarUrl = "/images/prtotype.png"
-# 					title = "Software Engineer"
-# 					subtitle = ""
-# 					typeit = true
-# 					social = true
-# 					disclaimer = ""
-# 				[languages.en.params.home.posts]
-# 					enable = false
-# 					paginate = 6
-# 					defaultHiddenFromHomePage = false
