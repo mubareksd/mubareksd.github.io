@@ -61,4 +61,4 @@ Disallow: /
 User-agent: ZoominfoBot
 Disallow: /
 
-Sitemap: https://mubareksd.me/sitemap.xml
+Sitemap: https://mubareksd.github.io/sitemap.xml
