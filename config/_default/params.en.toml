@@ -1,0 +1,44 @@
+description = "Personal blog of Mubarek Seid Juhar"
+
+[app]
+	title = "MubarekSD"
+	noFavicon = false
+	svgFavicon = ""
+	themeColor = "#ffffff"
+	iconColor = "#5bbad5"
+	tileColor = "#da532c"
+
+[search]
+	enable = false
+	type = "lunr"
+	contentLength = 4000
+	placeholder = ""
+	maxResultLength = 10
+	snippetLength = 30
+	highlightTag = "em"
+	absoluteURL = false
+
+[home]
+	rss = 10
+	[home.profile]
+		enable = true
+		gravatarEmail = ""
+		avatarURL = "/images/profile.jpg"
+		title = "Mubarek Seid Juhar"
+		subtitle = "Software Engineer"
+		typeit = true
+		social = true
+		disclaimer = ""
+	[home.posts]
+		enable = true
+		paginate = 6
+
+[social]
+	Github = "MubarekSD"
+	Linkedin = "mubareksd"
+	Twitter = "mubareksd"
+	Gitlab = "mubareksd"
+	Telegram = "mubareksd"
+	phone = "+251904206733"
+	Email = "mubareksd@gmail.com"
+	RSS = true
