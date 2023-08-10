@@ -1,0 +1,22 @@
+[home]
+    rss = 10
+    [home.profile]
+        enable = true
+        avatarURL = "/images/profile.jpg"
+        title = "مبارك سيد جوهر"
+        subtitle = "مهندس برمجيات"
+        typeit = true
+		social = true
+    [home.posts]
+		enable = true
+		paginate = 6
+
+[social]
+	Github = "MubarekSD"
+	Linkedin = "mubareksd"
+	Twitter = "mubareksd"
+	Gitlab = "mubareksd"
+	Telegram = "mubareksd"
+	phone = "+251904206733"
+	Email = "mubareksd@gmail.com"
+	RSS = true

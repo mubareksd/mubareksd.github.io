@@ -1,0 +1,37 @@
+# Menu config
+
+[[main]]
+    identifier = "home"
+    pre = "<i class='fa fa-home fa-fw'></i>"
+    post = ""
+    name = "Home"
+    url = "/"
+    title = ""
+    weight = 1
+
+[[main]]
+    identifier = "about"
+    pre = ""
+    post = ""
+    name = "About"
+    url = "/about/"
+    title = ""
+    weight = 2
+
+[[main]]
+    identifier = "services"
+    pre = ""
+    post = ""
+    name = "خدمات"
+    url = "/services/"
+    title = ""
+    weight = 3
+
+[[main]]
+    identifier = "posts"
+    pre = ""
+    post = ""
+    name = "Posts"
+    url = "/posts/"
+    title = ""
+    weight = 4
