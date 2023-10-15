@@ -1,6 +1,3 @@
 # Services
 
----
-title: 'Services'
----
 
