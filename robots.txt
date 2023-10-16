@@ -58,4 +58,4 @@ Disallow: /
 User-agent: *
 Allow: /
 
-Sitemap: https://mubareksd.github.io/sitemap.xml
+Sitemap: https://mubareksd.com/sitemap.xml
