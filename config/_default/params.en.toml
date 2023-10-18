@@ -23,7 +23,7 @@ description = "Personal blog of Mubarek Seid Juhar"
 	[home.profile]
 		enable = true
 		gravatarEmail = ""
-		avatarURL = "/images/profile.jpg"
+		avatarURL = "/images/2-modified.png"
 		title = "Mubarek Seid Juhar"
 		subtitle = "Software Engineer"
 		typeit = true
