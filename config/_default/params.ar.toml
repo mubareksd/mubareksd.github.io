@@ -2,7 +2,7 @@
     rss = 10
     [home.profile]
         enable = true
-        avatarURL = "/images/profile.jpg"
+        avatarURL = "/images/2-modified.png"
         title = "مبارك سيد جوهر"
         subtitle = "مهندس برمجيات"
         typeit = true
