@@ -76,9 +76,13 @@ license = '<a rel="" href="https://www.gnu.org/licenses/gpl-3.0.en.html" target=
 		Whatsapp = true
 	[page.comment]
 		enable = true
-		[page.comment.disqus]
+		[page.comment.utterances]
 			enable = true
-			shortname = "mubareksd"
+			repo = "mubareksd/mubareksd.github.io"
+			issueTerm = "pathname"
+      		label = ""
+			lightTheme = "github-light"
+      		darkTheme = "github-dark"
 	[page.seo]
 		image = []
 		[page.seo.publisher]
