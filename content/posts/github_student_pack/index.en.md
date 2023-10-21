@@ -1,6 +1,6 @@
 ---
 weight: 1
-title: 'GitHub Student Pack: Unlock your developer potential'
+title: 'Unlock your developer potential with the GitHub Student Developer Pack'
 date: 2023-10-21T17:35:33+00:00
 lastmod: 2023-10-21T17:35:33+00:00
 draft: false
