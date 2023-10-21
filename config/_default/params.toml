@@ -4,7 +4,7 @@ fingerprint = "sha256"
 dateFormat = "2006-01-02"
 # website title
 title = "MubarekSD"
-images = ["/images/prototype.png"]
+images = ["/images/2-modified.png"]
 # enable PWA
 enablePWA = false
 license = '<a rel="" href="https://www.gnu.org/licenses/gpl-3.0.en.html" target="_blank">GPL-V3</a>'
