@@ -8,7 +8,7 @@ authors: ["Mubarek Seid Juhar"]
 description: "Gain access to free and discounted tools and services to accelerate your learning and development as a programmer. Join the GitHub Student Pack today!"
 featuredImage: "featured-image.png"
 
-tags: ["github", "developer", "student", "tools", "resources"]
+tags: []
 categories: []
 
 lightgallery: true
