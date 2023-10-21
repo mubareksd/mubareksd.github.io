@@ -5,7 +5,7 @@ date: 2023-10-21T17:35:33+00:00
 lastmod: 2023-10-21T17:35:33+00:00
 draft: false
 authors: ["Mubarek Seid Juhar"]
-description: "Gain access to free and discounted tools and services to accelerate your learning and development as a programmer. Join the GitHub Student Pack today!"
+description: ""
 featuredImage: "featured-image.png"
 
 tags: []
