@@ -70,7 +70,7 @@ In today's competitive job market, it's important to stand out from the crowd. T
 {{< image src="4.png" caption="Complete configuration preview" height="1562" width="2450">}}
 6. If required, upload proof of your student status. and click on "Process my application" button.
 {{< image src="5.png" caption="Complete configuration preview" height="1562" width="2450">}}
-8. Review the terms and conditions and click on the "Accept" button.
+7. Review the terms and conditions and click on the "Accept" button.
 
 ## Conclusion
 
