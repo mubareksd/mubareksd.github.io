@@ -8,7 +8,7 @@ authors: ["Mubarek Seid Juhar"]
 description: "Gain access to free and discounted tools and services to accelerate your learning and development as a programmer. Join the GitHub Student Pack today!"
 featuredImage: "featured-image.png"
 
-tags: [github, developer, student, tools, resources]
+tags: [github, student developer pack, coding, programming, software development, education]
 categories: []
 
 lightgallery: true
@@ -56,22 +56,8 @@ With the GitHub Student Developer Pack, you can focus on what matters most: lear
 
 In today's competitive job market, it's important to stand out from the crowd. The GitHub Student Developer Pack can help you do this by giving you access to the tools and resources you need to build impressive projects. With these projects under your belt, you'll be well on your way to landing your dream job.
 
-## How to join
-
-1. Go to the GitHub Education website. https://education.github.com and click on the "Join Global Campus" button.
-{{< image src="0.png" caption="Complete configuration preview" height="1562" width="2450">}}
-2. Click on the "Sign up for Student Developer Pack" button.
-{{< image src="1.png" caption="Complete configuration preview" height="1562" width="2450">}}
-3. Click on the "Get student benefits" button.
-{{< image src="2.png" caption="Complete configuration preview" height="1562" width="2450">}}
-4. Create a GitHub account or log in to your existing account.
-{{< image src="3.png" caption="Complete configuration preview" height="1562" width="2450">}}
-5. select your school-issued email address if you have it else choose any email, school name and how are you going to use github. and click "continue" button.
-{{< image src="4.png" caption="Complete configuration preview" height="1562" width="2450">}}
-6. If required, upload proof of your student status. and click on "Process my application" button.
-{{< image src="5.png" caption="Complete configuration preview" height="1562" width="2450">}}
-7. Review the terms and conditions and click on the "Accept" button.
-
 ## Conclusion
 
-The GitHub Student Developer Pack is a goldmine of opportunities for students who are passionate about coding. By taking advantage of the pack's offerings, you can gain the skills and experience you need to succeed in the tech industry. So what are you waiting for? Join the GitHub Student Developer Pack today and start building your future!
+The GitHub Student Developer Pack is a valuable resource for any student who is interested in learning more about coding. By taking advantage of the pack's offerings, students can gain the skills and experience they need to succeed in the tech industry.
+
+So what are you waiting for? Join the GitHub Student Developer Pack today and start building your future!
