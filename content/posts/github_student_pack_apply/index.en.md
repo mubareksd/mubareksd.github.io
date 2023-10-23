@@ -1,8 +1,8 @@
 ---
 weight: 1
 title: 'Join the GitHub Student Developer Pack in a few easy steps'
-date: 2023-10-21T21:29:01+08:00
-lastmod: 2023-10-21T21:29:01+08:00
+date: 2023-10-22T21:29:01+08:00
+lastmod: 2023-10-22T21:29:01+08:00
 draft: false
 authors: ["Mubarek Seid Juhar"]
 description: "Gain access to free and discounted tools and services to accelerate your learning and development as a programmer. Join the GitHub Student Pack today!"
