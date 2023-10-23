@@ -30,3 +30,4 @@ If you are asked to upload proof of your student status, make sure the document 
 ## Conclusion
 
 The GitHub Student Developer Pack is a valuable resource for any student who is interested in learning more about coding. By following the steps above, you can apply for the pack and start taking advantage of all the benefits it has to offer.
+
