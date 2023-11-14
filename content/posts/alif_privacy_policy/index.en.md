@@ -18,29 +18,25 @@ toc:
 
 Alif Privacy Policy
 
-Effective Date: [Date]
+Effective Date: 2023-11-14
 
-1. **Information Collected:**
+1. **No Data Collection:**
    - We collect [types of information] through [methods of collection].
 
-2. **Use of Information:**
-   - The collected information is used for [purposes such as improving user experience, analytics, etc.].
-   - We may share this information with [any third parties, if applicable].
+2. **User Anonymity:**
+   - Our app is designed to respect user privacy, and we do not track or store any identifiable information about our users.
 
-3. **Data Retention:**
-   - User data is retained for [duration], and retention is based on [criteria].
+3. **No Third-Party Services:**
+   - We do not use any third-party services that might collect user data on our behalf.
 
 4. **User Controls:**
-   - Users have the right to [update, delete, or access their information]. Instructions can be found [here].
+   - Since we do not collect any user data, there are no user controls related to data privacy.
 
 5. **Security Measures:**
-   - We implement [encryption, access controls, etc.] to ensure the security of user data.
+   - While we don't collect user data, we still prioritize the security of the app and employ measures to protect user privacy.
 
-6. **Third-Party Services:**
-   - Our app uses [list of third-party services]. Please refer to their privacy policies for more information.
+6. **Policy Changes:**
+   - Any future changes to this privacy policy will be made clear, although they will continue to reflect our commitment to not collecting user data.
 
-7. **Policy Changes:**
-   - This privacy policy may be updated, and users will be notified of any changes.
-
-8. **Contact Information:**
-   - For privacy concerns or questions, please contact us at [contact information].
+7. **Contact Information:**
+   - For privacy concerns or questions, please contact us at <hello@mubareksd.com>.
