@@ -21,7 +21,7 @@ Alif Privacy Policy
 Effective Date: 2023-11-14
 
 1. **No Data Collection:**
-   - We collect [types of information] through [methods of collection].
+   - We do not collect any personal information, usage data, or any other data from our users.
 
 2. **User Anonymity:**
    - Our app is designed to respect user privacy, and we do not track or store any identifiable information about our users.
