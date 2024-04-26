@@ -2,7 +2,7 @@
     rss = 10
     [home.profile]
         enable = true
-        avatarURL = "/images/2-modified.png"
+        avatarURL = "/images/prtotype.png"
         title = "ሙባረክ ሰይድ ጁሃር"
         subtitle = "ሶፍትዌር ኢንጂኒር"
         typeit = true
